@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=widht-device, user-scalable=no">
+	<title>Registro Online</title>
+</head>
+<body>
+	<h1>Registro en nuestra tienda</h1>
+	<p>
+		Nombre de usuario</br>
+		<input type="text" placeholder="Ej. luis">
+	</p>
+	<p>
+		Email:</br>
+		<input type="email" placeholder="Ej. luis@gmail.com">
+	</p>
+	<p>
+		Edad</br>
+		<input type="number" placeholder="Ej: 21" max="131">
+	</p>
+	<form>
+		<label for="genero">Género</label></br>
+		<input type="radio" id="genero"><b>Masculino</b></br>
+		<input type="radio" id="genero"><b>Femenino</b></br>
+		<label for="recomendado">Recomendado por:</label></br>
+		<select>
+			<option>Google</option>
+			<option>Amigo</option>
+			<option>Redes Sociales</option>
+		</select>
+		<p>
+			Comentarios:</br>
+			<textarea name="comentarios" cols="30" rows="5"></textarea>
+		</p>
+	</form>
+	<p>
+		Acepto terminos y condiciones:</br>
+		<input type="checkbox">
+	</p>
+	<input type="submit" name="registrar" value="Registrar">
+</body>
+</html>

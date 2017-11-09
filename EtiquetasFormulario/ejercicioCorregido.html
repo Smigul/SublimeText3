@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=width=device, user-scalable=no">
+	<title>HTML Base</title>
+</head>
+<body>
+	<h1>Registro en nuestra tienda</h1>
+	<form action="">
+		<p>
+			<label for="nombre">Nombre de usuario</label>
+			<br>
+			<input type="text" id="nombre" placeholder="Ej: luis">
+			<br>
+		</p>
+		<p>
+			<label for="email">Email:</label>
+			<br>
+			<input type="text" id="email" placeholder="Ej: luis@gmail.com">
+			<br>
+		</p>
+		<p>
+			<label for="edad">Edad:</label>
+			<br>
+			<input type="number" id="edad" placeholder="Ej: 21">
+		</p>
+		<p>
+			<label for="genero">Género:</label>
+			<br>
+			<input type="radio" name="genero">Masculino <br>
+			<input type="radio" name="genero">Femenino <br>
+		</p>
+		<p>
+			<label for="recomendacion">Recomendado por:</label>
+			<br>
+			<select name="recomendacion">
+				<option value="1">Google</option>
+				<option value="1">amigo</option>
+				<option value="1">redes sociales</option>
+			</select>
+		</p>
+		<p>
+			<label for="comentarios">Comentarios:</label><br>
+			<textarea name="comentarios" cols="40" rows="3"></textarea>
+		</p>
+		<p>
+			<label for="terminos">Acepto terminos y condiciones:</label><br>
+			<input type="checkbox" name="terminos">
+		</p>
+		<input type="submit" value="Registrar">
+	</form>
+</body>
+</html>
