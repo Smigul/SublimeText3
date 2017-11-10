@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=width-device, user-scalable=no">
+	<title>Ejercicio 3</title>
+</head>
+<body>
+	<h1>Registro en nuestra tienda</h1>
+	<a href="../Hipervinculo/etiqueta_a.html">Volver</a>
+	<form>
+		<p>			
+			<label for="nombre">Nombre de usuario</label><br>
+			<input type="text" required name="nombre" placeholder="Ej: goku" autofocus><br>
+		</p>
+		<p>
+			<label for="email">Email:</label><br>
+			<input type="email" name="email" required placeholder="Ej: goku@gmail.com"><br>
+		</p>
+		<p>
+			<label for="edad">Edad:</label><br>
+			<input type="number" name="edad" required placeholder="21"><br>
+		</p>
+		<p>
+			<label for="fecha">Fecha de nacimiento:</label><br>
+			<input type="date" required name="fecha"><br>
+		</p>
+		<p>
+			<label for="genero">Género:</label><br>
+			<input type="radio" name="genero" required>Masculino<br>
+			<input type="radio" name="genero" required>Femenino<br>
+		</p>
+		<p>
+			<label for="recomendado">Recomendado por:</label><br>
+			<select name="recomendado">
+				<option value="1">Google</option>
+				<option value="1">Amigos</option>
+				<option value="1">redes sociales</option>
+			</select>
+		</p>
+		<p>
+			<label for="texto">Comentarios:</label><br>
+			<textarea name="texto" cols="40" rows="5" required></textarea>
+		</p>
+		<p>
+			<label for="terminos">Acepto términos y condiciones:</label><br>
+			<input type="checkbox" required name="terminos"><br>
+		</p>
+			<p>
+				<input type="submit" required value="Registrar">
+			</p>
+			
+	</form>
+</body>
+</html>
